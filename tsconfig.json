@@ -1,1 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",                      // Ensure ES2015 or later
+    "lib": ["ES2015", "DOM"],                // Enable Array.from and browser APIs
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "types": ["cypress"]
+  },
+  "include": ["cypress/**/*.ts"]
+}
 
